@@ -5,7 +5,6 @@ body{
 }
 
 main{
-    background-color: rgb(#ffffff);
     width: 40%;
     display: grid;
     grid-template-columns: 1fr 2fr;
