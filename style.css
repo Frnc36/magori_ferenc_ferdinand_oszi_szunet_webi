@@ -1,68 +1,17 @@
-/* a{
-    text-decoration: none;
-    color: red;
-    font-weight: bold;
-}
-
-nav li:hover{
-    background-color: lightgray;
-}
-
-a:hover{
-    color: white;
-} */
-
-/* body{
-    
-}
-
-nav{
-    width: 500px;
-}
-
-ul{
-    justify-content: center;
-}
-
-nav ul {
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 15px;
-}
-
-li>a{
-    float: left;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-}
-
-a:hover:not(.active) {
-    background-color: aqua;
-}
-    
-.active {
-    background-color: hotpink;
-} */
-
 body{
-    background: whitesmoke;
+    background: linear-gradient(to top, white 50%, #2ecc71 100%);
     text-align: justify;
 }
 
 main{
-    background-color: rgb(#333333);
+    background-color: rgb(#ffffff);
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     'header header'
     'nav nav'
-    'article aside' 
+    'article aside'
     'footer footer';  
     margin: auto auto;
     margin-top: 20px;
@@ -132,17 +81,24 @@ a:hover:not(.active) {
 article img{
     border: solid 1px black;
     border-radius: 15px;
-    margin: 25px;
+    margin: 15px;
     
 }
+
+
+#legzes{
+    width: 60%;
+}
+
+
 
 aside p,h2{
     padding-right: 15px;
     margin-left: -100px;
 }
 
-aside h2{
-    color: #2ecc71;
+.idezet{
+    padding-left: 150px;
 }
 
 #elsobetu::first-letter{
@@ -150,6 +106,37 @@ aside h2{
     font-size: 18pt;
     font-weight: bolder;
 }
+
+
+.kiemelt{
+    color: #2ecc71;           
+    font-weight: bold;
+}
+
+#lelki-elonyok h3, #fizikai-elonyok h3{
+    color: #2ecc71;
+}
+
+
+
+#lelki-elonyok{
+    padding-bottom: 25px;
+}
+
+#lelki-elonyok, #fizikai-elonyok {
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #2ecc71;
+    border-right: 4px solid #2ecc71;
+}
+
+
+#lelki-elonyok ul, #fizikai-elonyok ul {
+    padding: 20px;
+}
+
 
 
 footer{
@@ -164,3 +151,4 @@ footer{
     padding-right: 10px;
     margin: auto auto;
 }
+
