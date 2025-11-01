@@ -1,13 +1,14 @@
 body{
-    background: linear-gradient(to top, white 50%, #2ecc71 100%);
+    background: linear-gradient(to top, white 30%, #82e0a9 70%);
     text-align: justify;
+    font-size: 12pt;
 }
 
 main{
     background-color: rgb(#ffffff);
-    width: 70%;
+    width: 40%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-areas: 
     'header header'
     'nav nav'
@@ -20,18 +21,14 @@ main{
     padding: 15px;
 }
 
+
 header{
     grid-area: header;
-/*     background-image: url(kepek/futo_header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 450px;*/
 }
 
 header h1{
     text-align: center;
     color: white;
-    border: solid 1px #2ecc71;
     background-color: #2ecc71;
     border-radius: 15px;
     padding: 10px;
@@ -43,7 +40,7 @@ header h1{
 
 nav{
     grid-area: nav;
-    width: 300px;
+    width: 241px;    
     padding: 0;
     /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
     border-radius: 10px;
@@ -78,23 +75,21 @@ a:hover:not(.active) {
 } 
 
 
-article img{
+article a img {
+    width: 350px;
     border: solid 1px black;
     border-radius: 15px;
-    margin: 15px;
+    margin: 25px;
     
 }
 
-
-#legzes{
-    width: 60%;
+aside h2{
+    color: #2ecc71;
 }
-
-
 
 aside p,h2{
     padding-right: 15px;
-    margin-left: -100px;
+    margin-left: 25px;
 }
 
 .idezet{
@@ -111,22 +106,22 @@ aside p,h2{
 .kiemelt{
     color: #2ecc71;           
     font-weight: bold;
+    font-size: large;
 }
 
 #lelki-elonyok h3, #fizikai-elonyok h3{
     color: #2ecc71;
 }
 
-
-
-#lelki-elonyok{
-    padding-bottom: 25px;
+#fizikai-elonyok{
+    padding-top: 100px;
 }
+
 
 #lelki-elonyok, #fizikai-elonyok {
     background-color: white;
     padding: 10px;
-    margin: 15px;
+    margin: 30px;
     border-radius: 10px;
     border-left: 4px solid #2ecc71;
     border-right: 4px solid #2ecc71;
@@ -136,7 +131,6 @@ aside p,h2{
 #lelki-elonyok ul, #fizikai-elonyok ul {
     padding: 20px;
 }
-
 
 
 footer{
