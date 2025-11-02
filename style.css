@@ -1,5 +1,4 @@
 body{
-    background: linear-gradient(to top, white 30%, #82e0a9 70%);
     text-align: justify;
     font-size: 12pt;
 }
@@ -18,6 +17,7 @@ main{
     border: solid 2px black;
     border-radius: 15px;
     padding: 15px;
+    background: linear-gradient(to top, white 30%, #70BCDB 70%);
 }
 
 
@@ -28,7 +28,7 @@ header{
 header h1{
     text-align: center;
     color: white;
-    background-color: #2ecc71;
+    background-color: #149CDC;
     border-radius: 15px;
     padding: 10px;
 }
@@ -65,11 +65,11 @@ li a{
 
 a:hover:not(.active) {
     background-color: white;
-    color: #2ecc71;
+    color: #149CDC;
 }
     
 .active {
-    background-color: #2ecc71;
+    background-color: #149CDC;
     text-decoration: underline white;
 } 
 
@@ -82,11 +82,11 @@ article a img {
     
 }
 
-aside h2{
-    color: #2ecc71;
+aside h2,h3{
+    color: #149CDC;
 }
 
-aside p,h2{
+aside p,h2,h3{
     padding-right: 15px;
     margin-left: 25px;
 }
@@ -96,20 +96,20 @@ aside p,h2{
 }
 
 #elsobetu::first-letter{
-    color: #2ecc71;
+    color: #149CDC;
     font-size: 18pt;
     font-weight: bolder;
 }
 
 
 .kiemelt{
-    color: #2ecc71;           
+    color: #149CDC;           
     font-weight: bold;
     font-size: large;
 }
 
 #lelki-elonyok h3, #fizikai-elonyok h3{
-    color: #2ecc71;
+    color: #149CDC;
 }
 
 #fizikai-elonyok{
@@ -122,8 +122,8 @@ aside p,h2{
     padding: 10px;
     margin: 30px;
     border-radius: 10px;
-    border-left: 4px solid #2ecc71;
-    border-right: 4px solid #2ecc71;
+    border-left: 4px solid #149CDC;
+    border-right: 4px solid #149CDC;
 }
 
 
@@ -132,10 +132,14 @@ aside p,h2{
 }
 
 
+#emoji{
+    list-style: none;
+}
+
 footer{
     grid-area: footer;
     justify-self: center;
-    background-color: #2ecc71;
+    background-color: #149CDC;
     color: white;
     border: solid 1px none;
     border-radius: 15px;
